@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+  int i,n; //variable declaration
+ //(int count)
+  printf("Enter a number for number of times");
+  scanf("%d",&n); //readingn value from the user
+  i=1;
+ //(count=0)
+  while(i<=n)
+  {
+   //(count=count+1)
+    printf("\n%d Aditya",i);
+    i++;
+  }
+}
